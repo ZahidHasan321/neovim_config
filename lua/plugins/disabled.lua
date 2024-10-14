@@ -9,4 +9,8 @@ return {
     "folke/tokyonight.nvim",
     enabled = false,
   },
+  {
+    "garymjr/nvim-snippets",
+    enabled = false,
+  },
 }
