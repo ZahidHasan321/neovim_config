@@ -1,7 +1,7 @@
 return {
   { "akinsho/bufferline.nvim", enabled = false },
   { "nvimdev/dashboard-nvim", enabled = false },
-  { "rafamadriz/friendly-snippets", enabled = false },
+  { "rafamadriz/friendly-snippets", enabled = true },
   { "folke/noice.nvim", enabled = false },
   { "rcarriga/nvim-notify", enabled = false },
   { "catppuccin/nvim", enabled = false },
@@ -11,6 +11,6 @@ return {
   },
   {
     "garymjr/nvim-snippets",
-    enabled = false,
+    enabled = true,
   },
 }
