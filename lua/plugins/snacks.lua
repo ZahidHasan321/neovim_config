@@ -1,0 +1,38 @@
+return {
+  "folke/snacks.nvim",
+  keys = {
+    {
+      "<leader>,",
+      function()
+        Snacks.picker.buffers({ focus = "list" })
+      end,
+      desc = "Buffers",
+    },
+    { "<leader>n", false },
+    { "<leader>fB", false },
+    { "<leader>fc", false },
+    { "<leader>fr", false },
+    { "<leader>fR", false },
+    { "<leader>fp", false },
+    { "<leader>gd", false },
+    { "<leader>gs", false },
+    { "<leader>gS", false },
+    { "<leader>sb", false },
+    { "<leader>sB", false },
+    { "<leader>sg", false },
+    { "<leader>sG", false },
+    { "<leader>sp", false },
+    { "<leader>sw", false },
+    { "<leader>sW", false },
+    { "<leader>sa", false },
+    { "<leader>sc", false },
+    { "<leader>sC", false },
+    { "<leader>sH", false },
+    { "<leader>si", false },
+    { "<leader>sl", false },
+    { "<leader>sM", false },
+    { "<leader>sm", false },
+    { "<leader>sR", false },
+    { "<leader>uC", false },
+  },
+}
